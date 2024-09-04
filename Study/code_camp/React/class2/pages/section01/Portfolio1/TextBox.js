@@ -1,13 +1,13 @@
 import { BoxTitle, BoxTitle__Wrapper, Input } from "../../../styles/portfolio"
 
 
-const TextBox = ({ title, placeholder }) => {
+const TextBox = ({ title, placeholder, style, inputStyle }) => {
 
     return <>
 
-        <BoxTitle__Wrapper>
+        <BoxTitle__Wrapper style={style}>
             <BoxTitle>{title}</BoxTitle>
-            <Input type="text" placeholder={placeholder}></Input>
+            <Input type="text" placeholder={placeholder} style={inputStyle}></Input>
         </BoxTitle__Wrapper>
     </>
 }

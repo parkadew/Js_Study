@@ -11,8 +11,6 @@ export default function Home() {
       </Head>
       <div>adf</div>
 
-
-
     </>
   );
 }
